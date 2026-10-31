@@ -2,7 +2,7 @@
 
 SQLite 2026 edition on top of `node:sqlite`.
 
-Idea from SQLite should have (Rust-style) editions (https://mort.coffee/home/sqlite-editions/).
+Idea from https://mort.coffee/home/sqlite-editions/.
 
 
 ```ts
