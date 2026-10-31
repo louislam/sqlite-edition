@@ -1,6 +1,6 @@
 {
   "name": "sqlite-edition",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rust-style editions for SQLite: one call, sane 2026 defaults on top of node:sqlite",
   "keywords": [
     "sqlite",
@@ -13,6 +13,14 @@
   ],
   "author": "Louis Lam",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louislam/sqlite-edition.git"
+  },
+  "homepage": "https://github.com/louislam/sqlite-edition#readme",
+  "bugs": {
+    "url": "https://github.com/louislam/sqlite-edition/issues"
+  },
   "type": "module",
   "main": "./index.js",
   "exports": {
