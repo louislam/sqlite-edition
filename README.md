@@ -5,6 +5,10 @@ SQLite 2026 edition on top of `node:sqlite`.
 Idea from https://mort.coffee/home/sqlite-editions/.
 
 
+```bash
+npm install sqlite-edition
+```
+
 ```ts
 import { createDatabase2026 } from "sqlite-edition";
 
