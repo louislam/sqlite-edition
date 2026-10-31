@@ -2,7 +2,7 @@
 
 SQLite 2026 edition on top of `node:sqlite`.
 
-Idea from [SQLite should have (Rust-style) editions](https://mort.coffee/home/sqlite-editions/) (https://mort.coffee/home/sqlite-editions/).
+Idea from SQLite should have (Rust-style) editions (https://mort.coffee/home/sqlite-editions/).
 
 
 ```ts
@@ -23,7 +23,5 @@ const db = createDatabase2026("app.db");
 
 ## API
 
-Identical to [`node:sqlite`](https://nodejs.org/api/sqlite.html):
-
-`createDatabase2026(path, options)` is basically `new DatabaseSync(path, options)`, with `timeout` defaulting to `5000`.
+Identical to `node:sqlite` (https://nodejs.org/api/sqlite.html), `createDatabase2026()` is basically `new DatabaseSync()`.
 
